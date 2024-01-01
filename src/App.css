@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+/* .avatar::after {
+  display: inline-block;content: "\00d7"; font-size:15pt;
+  position: relative; color: red; left: 5px;
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
