@@ -119,7 +119,7 @@ const CalculatorAddMenu = (props) => {
             <p style={{width:'80px', align:'center' ,display:'flex',justifyContent:'center', alignItems:'center'}}>결제 금액: </p>
             <Input dir="rtl" value={price} onChange={priceChange} sx={{textAlign:'end'}}></Input>
           </Stack>
-          <Stack direction="row" SX={{alignItems:'center'}} >
+          <Stack direction="row" sx={{alignItems:'center'}} >
           <p>정산 멤버: </p>&nbsp;&nbsp;&nbsp;
         {props.userList.length > 0
           ? props.userList.map((user) => {
