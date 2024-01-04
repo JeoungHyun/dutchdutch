@@ -88,6 +88,8 @@ const CalculatorAddMenu = (props) => {
         open={modalOpen}
         onClose={() => {
           setMdoalOpen(false);
+          setPrice();
+          setPick();
         }}
       >
         <Box sx={modalBoxstyle}>
