@@ -76,7 +76,7 @@ const CalculatorAddMenu = (props) => {
           paddingLeft: "15px",
           backgroundColor: "#2b2f6a",
           color: "white",
-          fontSize: "16px",
+          fontSize: "20px",
           height: "50px",
           display: "flex",
           alignItems: "center",
