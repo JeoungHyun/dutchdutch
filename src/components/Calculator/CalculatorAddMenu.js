@@ -125,7 +125,7 @@ const CalculatorAddMenu = (props) => {
           <p>정산 멤버: </p>&nbsp;&nbsp;&nbsp;
         {props.userList.length > 0
           ? props.userList.map((user) => {
-              let nameLength = user.name.length;
+              
 
               return (
                 <Avatar
