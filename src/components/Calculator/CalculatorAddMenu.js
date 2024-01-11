@@ -144,7 +144,7 @@ const CalculatorAddMenu = (props) => {
                     onClick={() => handleXClick(user.id)}
                     style={{
                       cursor: "pointer",
-                      fontSize: "14px",
+                      fontSize: "18px",
                       position: "relative",
                       color: "red",
                       left: "4px",
