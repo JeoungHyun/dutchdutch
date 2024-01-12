@@ -146,7 +146,7 @@ const CalculatorAddMenu = (props) => {
                       cursor: "pointer",
                       fontSize: "18px",
                       position: "relative",
-                      color: "red",
+                      color: "orange",
                       left: "4px",
                       top: "1px",
                     }}
